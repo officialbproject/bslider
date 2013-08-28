@@ -1,4 +1,4 @@
-bslider
+Bslider
 =======
 
 Lightweight javascript and jquery slideshow with easy site integration ! - by bproject.cu.cc
@@ -24,6 +24,17 @@ Here is a quick explanation how to setup Bslider:
     bslider['your id']['txt'][follow number] = "description for image with the same follow number";
     bslider['your id']['speed'] = int of speed in ms;
     bslider['your id']['total'] = int total images to show (must not be the realy total of images);
+    
+  With this array you can set your Bslider, just fill in the right values.
+  Now, we need a piece of html to make our Bslider working:
+  
+    <div class="bslider" id="[your chosen id]-div">
+      <div class="prev" id="prev"></div>
+      <div class="next" id="next"></div>
+      <div class="bullets" id="bullets"></div>
+      <!-- and optional (if you need to use descriptions): -->
+      <div class="text" id="text"></div>
+    </div>
 
 
     
