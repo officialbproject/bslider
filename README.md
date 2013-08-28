@@ -45,7 +45,8 @@ Here is a quick explanation how to setup Bslider:
   Here is a quick summary with sample data:
 
     <!-- slideshow -->
-    <div id="messagebox"></div>
+    <!-- yes, you have see it right : -->
+      <div id="messagebox"></div>
     <div class="bslider" id="slider-div">
         <img class="slideshow" id="slider" src="images/1.gif">
         <div class="prev" id="prev"></div>
@@ -79,3 +80,5 @@ Here is a quick explanation how to setup Bslider:
     </script>
     <!--slideshow -->
     
+  Note: there is a messagebox. The program post here messages if something is wrong. It is a great developer tool, but not so great for your customers.
+  If you leave this box, you will recieve no messages.
