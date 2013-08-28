@@ -36,5 +36,11 @@ Here is a quick explanation how to setup Bslider:
       <div class="text" id="text"></div>
     </div>
 
+  Now, our Bslider works, but he starts not automatic. We can fix it so:
+  
+    jQuery(document).ready(function() {slideshow('your chosen id','start')})
+    
+  Our slideshow works now fine.
+  Here is a quick summary with sample data:
 
     
