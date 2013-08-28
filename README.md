@@ -82,3 +82,12 @@ Here is a quick explanation how to setup Bslider:
     
   Note: there is a messagebox. The program post here messages if something is wrong. It is a great developer tool, but not so great for your customers.
   If you leave this box, you will recieve no messages.
+  
+Colophon
+========
+ (c) bproject.cu.cc
+ this program is developed with love by bproject
+ http://bproject.cu.cc
+ http://bslider.cu.cc
+ 
+ sorry for my bad English, I am Belgian (and I love it :p )
