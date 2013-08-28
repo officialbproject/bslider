@@ -43,4 +43,38 @@ Here is a quick explanation how to setup Bslider:
   Our slideshow works now fine.
   Here is a quick summary with sample data:
 
+    <!-- slideshow -->
+    <div id="messagebox"></div>
+    <div class="bslider" id="slider-div">
+        <img class="slideshow" id="slider" src="http://www.devoerstreek.be/templates/greenglow2.1/images/3.JPG">
+        <div class="prev" id="prev" style="opacity: 0;"></div>
+        <div class="next" id="next"></div>
+        <div class="bullets" id="bullets"><div class="bullet" id="1"></div><div class="bullet" id="2"></div><div class="bullet bulletactive" id="3"></div><div class="bullet" id="4"></div></div>
+        <!--<div class="text" id="text"></div>-->
+    </div>
+    <script type="text/javascript">
+            
+        //slideshow settings
+    
+        var bslider = new Array();  
+          bslider['slider'] = new Array();
+        
+          bslider['slider']['img'] = new Array();
+          bslider['slider']['img'][1] = 'images/1.gif';
+          bslider['slider']['img'][2] = 'images/2.gif';
+          bslider['slider']['img'][3] = 'images/3.gif';
+        
+          bslider['slider']['txt'] = new Array();
+          bslider['slider']['txt'][1] = "anwersome image by bproject";
+          bslider['slider']['txt'][2] = "not so anwersome image (but still ok ;) )";
+          bslider['slider']['txt'][3] = "great image!!!";
+        
+          bslider['slider']['speed'] = 3000;
+        
+          bslider['slider']['total'] = 3;
+    
+          jQuery(document).ready(function() {slideshow('slider','start')})
+      
+    </script>
+    <!--slideshow -->
     
