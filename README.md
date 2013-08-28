@@ -29,6 +29,7 @@ Here is a quick explanation how to setup Bslider:
   Now, we need a piece of html to make our Bslider working:
   
     <div class="bslider" id="[your chosen id]-div">
+      <img class="slideshow" id="[your chosen id]" src="the/image/you/want/to/start.jpg">
       <div class="prev" id="prev"></div>
       <div class="next" id="next"></div>
       <div class="bullets" id="bullets"></div>
@@ -46,11 +47,11 @@ Here is a quick explanation how to setup Bslider:
     <!-- slideshow -->
     <div id="messagebox"></div>
     <div class="bslider" id="slider-div">
-        <img class="slideshow" id="slider" src="http://www.devoerstreek.be/templates/greenglow2.1/images/3.JPG">
-        <div class="prev" id="prev" style="opacity: 0;"></div>
+        <img class="slideshow" id="slider" src="images/1.gif">
+        <div class="prev" id="prev"></div>
         <div class="next" id="next"></div>
-        <div class="bullets" id="bullets"><div class="bullet" id="1"></div><div class="bullet" id="2"></div><div class="bullet bulletactive" id="3"></div><div class="bullet" id="4"></div></div>
-        <!--<div class="text" id="text"></div>-->
+        <div class="bullets" id="bullets"></div>
+        <div class="text" id="text"></div>
     </div>
     <script type="text/javascript">
             
