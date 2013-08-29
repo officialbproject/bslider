@@ -1,0 +1,36 @@
+/*
+######################################################################################
+## Bslider by bproject.cu.cc                                                        ##
+## version 1.0                                                                      ##
+######################################################################################
+## Lightweight, javascript and jquery slideshow                                     ##
+## (c) bproject.cu.cc - all right reserved                                          ##
+## If you have questions or suggestions, please contact me on bproject.cu.cc        ##
+## free for personal use, if you want use this slideshow for professional purposes, ##
+## please contact me on bproject.cu.cc                                              ##
+######################################################################################
+*/
+
+.info
+{padding: 10px;
+font-size: 1.3em;
+color: blue;
+}
+
+.error
+{padding: 10px;
+font-size: 1.3em;
+color: #B30000;
+}
+
+.warning
+{padding: 10px;
+font-size: 1.3em;
+color: orange;
+}
+
+.success
+{padding: 10px;
+font-size: 1.3em;
+color: green;
+}

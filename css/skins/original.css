@@ -1,0 +1,98 @@
+/*
+######################################################################################
+## Bslider by bproject.cu.cc                                                        ##
+## version 1.0                                                                      ##
+######################################################################################
+## Lightweight, javascript and jquery slideshow                                     ##
+## (c) bproject.cu.cc - all right reserved                                          ##
+## If you have questions or suggestions, please contact me on bproject.cu.cc        ##
+## free for personal use, if you want use this slideshow for professional purposes, ##
+## please contact me on bproject.cu.cc                                              ##
+######################################################################################
+*/
+
+.bslider{
+margin: 0 -5px 20px -5px;
+position:relative;
+}
+
+.slideshow
+{width: 100%;
+height: auto;
+box-shadow: 1px 1px 5px #888,-1px 1px 5px #888,1px -1px 5px #888,-1px -1px 5px #888;
+border-radius: 10px;
+}
+
+.prev
+{position: absolute;
+width: 15%;
+height: 100%;
+background: rgba(255,255,255,0.3) url(../../images/arrowleft.png);
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 10px 0 0 10px;
+opacity: 0;
+left: 0;
+top: 0;
+z-index: 100;
+}
+
+.next
+{position: absolute;
+width: 15%;
+height: 100%;
+background: rgba(255,255,255,0.3) url(../../images/arrowright.png);
+background-repeat: no-repeat;
+background-position: center center;
+border-radius: 0 10px 10px 0;
+opacity: 0;
+right: 0;
+top: 0;
+z-index: 100;
+}
+
+.bullets
+{position: absolute;
+background: transparent;
+left:0;
+right:0;
+bottom: 0;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+padding-top: 5px;
+}
+
+.bullets.top, .text.top
+{top: 0;
+bottom: auto;
+border-radius: 10px 10px 0 0;
+}
+
+.bullet
+{display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background: rgba(255,255,255,0.5);
+border: 2px solid rgba(100,100,100,1);
+margin: 10px;
+}
+
+.bulletactive 
+{background: rgba(100,100,100,0.5);
+width: 19px;
+height: 19px;
+margin: 8px;
+}
+
+.text
+{position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+text-align: center;
+padding: 10px;
+background: rgba(255,255,255,0.5);
+border-radius: 0 0 10px 10px;
+}

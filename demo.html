@@ -1,0 +1,71 @@
+<!-- 
+######################################################################################
+## Bslider by bproject.cu.cc                                                        ##
+## version 1.0                                                                      ##
+######################################################################################
+## Lightweight, javascript and jquery slideshow                                     ##
+## (c) bproject.cu.cc - all right reserved                                          ##
+## If you have questions or suggestions, please contact me on bproject.cu.cc        ##
+## free for personal use, if you want use this slideshow for professional purposes, ##
+## please contact me on bproject.cu.cc                                              ##
+######################################################################################
+ -->
+<html>
+<head>
+	<title>Bslider demo slideshow - by Bproject.cu.cc</title>
+	<style>* {margin: 0; padding: 0;} p,h1 {margin: 10px;} a:link,a:visited{text-decoration: none; color: #DDDDDD} a:hover,a:active{color:#fff;}</style>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css"></link>
+	<link rel="stylesheet" type="text/css" href="css/skins/original.css"></link>
+	
+</head>
+<body style="margin: 0; padding: 0;">
+	<!-- slideshow -->
+	<div id="messagebox"></div>
+	<div class="bslider" id="demo-div" style="width: 85%; margin: 20px auto;">
+		<img class ="slideshow" id="demo" src="images/default1.gif"/>
+		<div class="prev" id="prev"></div>
+		<div class="next" id="next"></div>
+		<div class="bullets top" id="bullets"></div>
+		<div class="text" id="text"></div>
+	</div>
+	<script type="text/javascript">
+						
+		//slideshow settings
+		
+		
+			var bslider = new Array();	
+				bslider['demo'] = new Array();
+				
+				bslider['demo']['img'] = new Array();
+				bslider['demo']['img'][1] = "images/default1.gif";
+				bslider['demo']['img'][2] = "images/default2.gif";
+				bslider['demo']['img'][3] = "images/default3.gif";
+				
+				bslider['demo']['txt'] = new Array();
+				bslider['demo']['txt'][1] = "default1.gif";
+				bslider['demo']['txt'][2] = "default2.gif";
+				bslider['demo']['txt'][3] = "default3.gif";
+				
+				bslider['demo']['speed'] = 3000;
+				
+				bslider['demo']['total'] = 3;
+		
+		$(document).ready(function() {slideshow('demo','start')})
+		
+								
+	</script>
+	<!--slideshow -->
+	
+	<div style="width: 80%; margin: 0 auto; background: #86B300; border-radius: 10px; padding: 10px; font-size: 1.2em; color: #222222; box-shadow: 1px 1px 5px #888,-1px 1px 5px #888,1px -1px 5px #888,-1px -1px 5px #888;">
+		<h1>Bslider by <a href="http://bproject.cu.cc">bproject.cu.cc</a></h1>
+		<p>Feel free to use this slider for personal purposes ! 
+		If you want to use this slider for professional purposes, please contact me on 
+		<a href="http://bproject.cu.cc">bproject.cu.cc</a></p>
+		<p>If you like this slider, please feel free to visit and link <a href="http://bproject.cu.cc">bproject</a> !
+		you, (and the customers of your site) will go discover more crazy stuff <a href="http://bproject.cu.cc">from bproject</a> !</p>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,90 @@
+/*
+######################################################################################
+## Bslider by bproject.cu.cc                                                        ##
+## version 1.0                                                                      ##
+######################################################################################
+## Lightweight, javascript and jquery slideshow                                     ##
+## (c) bproject.cu.cc - all right reserved                                          ##
+## If you have questions or suggestions, please contact me on bproject.cu.cc        ##
+## free for personal use, if you want use this slideshow for professional purposes, ##
+## please contact me on bproject.cu.cc                                              ##
+######################################################################################
+*/
+
+.bslider {
+width: 100%;
+position: relative;
+}
+
+.slideshow {
+width: 100%;
+height: auto;
+}
+
+.prev {
+position: absolute;
+width: 10%;
+height: 100%;
+background: url(../../images/prev1.png);
+background-repeat: no-repeat;
+background-position: center center;
+top: 0;
+bottom: 0;
+left: 0;
+opacity: 0;
+}
+
+.next {
+position: absolute;
+width: 10%;
+height: 100%;
+background: url(../../images/next1.png);
+background-repeat: no-repeat;
+background-position: center center;
+top: 0;
+bottom: 0;
+right: 0;
+opacity: 0;
+}
+
+.bullets {
+position: absolute;
+background: transparent;
+left:0;
+right:0;
+bottom: 0;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+padding-top: 5px;
+}
+
+
+.bullets.top {
+top: 0;
+bottom: auto;
+}
+
+.bullet {
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background: #AAAAAA;
+margin: 10px;
+}
+
+.bulletactive  {
+background: #333333;
+}
+
+.text
+{position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+text-align: center;
+padding: 10px;
+background: rgba(255,255,255,0.5);
+}
+
