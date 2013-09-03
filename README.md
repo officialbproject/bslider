@@ -1,7 +1,12 @@
-Bslider
-=======
+[Bslider](http://bslider.cu.cc)
+=========
 
 Lightweight javascript and jquery slideshow with easy site integration ! - by bproject.cu.cc
+
+[Documentation](http://bslider.cu.cc/bslider/doc)
+=============
+
+Below is a quick explanation how to use Bslider. Most Bslider documentation can be found on the [Bslider website](http://bslider.cu.cc). You can also always contact me by e-mail. You can find a link on the site (against spam ;) ).
 
 How to use
 ==========
